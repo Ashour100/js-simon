@@ -1,9 +1,8 @@
 let NumeriElement=document.querySelector("h2");
 let arrNumeri=[];
+let blackList=[];
 let RndNum= function(){
-    let blackList=[];
     let temp;
-    let ver=0;
     let rep=0;
     while(rep==0){
         temp=Math.floor(Math.random() * 9 + 1);
